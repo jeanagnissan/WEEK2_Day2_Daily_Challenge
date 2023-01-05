@@ -3,11 +3,12 @@
 /**
  * Exercices 1
  */
- console.log("-----------------Exercices 1---------------");
+ console.log("---------------Exercices 1 -------------");
 
 // 1- Créez une variable appelée sentence. La valeur de la variable doit être une chaîne contenant les mots « not » et « bad ».
 let sentence = "The movie is not that bad , I like it ";
 console.log(sentence);
+
 
 // 2- Créez une variable appelée wordNotoù sa valeur est la première apparition (c'est-à-dire la position) de la sous-chaîne "not" (de la sentencevariable).
 let wordNot =  sentence.indexOf("not");

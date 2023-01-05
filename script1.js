@@ -27,6 +27,7 @@ if( wordNot < wordBad){
 // 5- Si le mot "bad" ne vient pas après "not" ou si les mots ne sont pas dans la phrase, console.log la phrase originale.
 if( wordNot > wordBad || wordNot == -1 || wordBad == -1){
     console.log(sentence);
+    console.log("---------");
 }
 
 
